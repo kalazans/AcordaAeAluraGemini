@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="como-usar">
+    <h1>Acorda Ae Mano</h1>
+    <p>Autorize a ter sua localizaçao<p>
+    <p>link do google maps ao lado => <a href="https://www.google.com/maps/">GoogleMaps</a></p>
+    <p>Clique no local onde deseja ser acordado durante a viagem
+    <br>e pegue a longetude e latitude e aplicao ira tocar um som que voce escolher</p>
+</div>
+<div class="simulacao">
+<br>
+<p>SIMULAÇAO DO PROJETO</p>
+<br>
+<input type="number" id="latitude-destino"placeholder="latitude destino">
+<input typer="number"id="longitude-destino"placeholder="longitude destino">
+
+<button onclick="simular()">SIMULAR</button>
+<br>
+<br>
+</div>
+
+<div class="add-db">
+<p>Salve locais no Banco de Dados</p>
+<br>
+<div class="gifsObj">
+    <p>Adicione o local que quer ser acordado com gifs,<br>
+    para lembrar se pode apagar ou nao kkkkk </p>
+    <br>
+    <p>Ibernar</p>
+    <img src="ibernar.gif">
+    <br>
+    <p>vidrado</p>
+    <img src="naodormir.gif">
+    <br>
+
+</div>
+<div class="card-input">
+<input type="text" id="nomeLocal"placeholder="Nome do Local">
+<input type="number" id="latdb"placeholder="latitude">
+<input type="number" id="lotdb"placeholder="longitude">
+<label for="gifs">Tipos de Soneca<br>
+    <br>
+    <select for="gifs" id="gifs">
+        <option value="ibernar">Ibernar</option>
+        <option value="vidrado">vidrado</option>
+    </select>
+</label>
+<button onclick="adicionarDB()">ADICIONAR</button>
+<br><br>
+</div>
+</div>
+<br>
+<br>
+<button class ="lista" onclick="listaDosLocais()">Listar Locais Db</button>
+<br>
+<br>
+
+<div id="locaisDB">
+
+</div>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<audio id="audio">
+    <source src="acorda  show que ta na hora.mp3">
+</audio>
+</body>
+</html>
