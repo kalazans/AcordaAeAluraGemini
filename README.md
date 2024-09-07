@@ -1,5 +1,6 @@
 # AcordaAeAluraGemini
 <h1>Acorda ae Mano</h1>
+<p>Permita o app autilizar sua localizaça</p>
 <p> uma aplicação para que voce possa dormir tranquilo no busão</p>
 <p>Use o googlemaps para pegar  LATITUDE E LONGITUDE do local chave!!! carteira do mano aki ta igual seu madruga, +de 14 meses atrasado e o cartao foi de ralo e a api do google n aceitou kkkkkkkkk
 <p>A aplicação permite que voce salve lugares chaves para ser acordado com dois gifs, para saber se poder dormir muito ou não</p>
